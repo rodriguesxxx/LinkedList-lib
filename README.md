@@ -1,2 +1,2 @@
-# LinkedList-lib
-A C++ library that provides an efficient and flexible implementation of linked lists. This library is designed to provide a robust and easy-to-use solution for manipulating linked lists in the C++ language.
+# Linked List C++
+This library provides a robust solution for dynamic data structures. It includes comprehensive functionality for common operations such as insertion, removal, and traversing elements in the list. This solution is ideal for developers looking for a dynamic and scalable data structure in their C++ projects.
