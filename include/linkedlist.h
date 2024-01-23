@@ -18,8 +18,9 @@ class LinkedList {
     
     public:
         LinkedList() : head(nullptr), size(0) {}
-        
+
         void add(const T& value);
+        void del(const T& index);
 
 };
 
