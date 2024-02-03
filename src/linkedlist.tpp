@@ -1,13 +1,14 @@
 template<typename T>
 T LinkedList<T>::get(const int& index) {
     if(index >= size || index < 0) {
-        //lancar excecao
+        throw std::out_of_range("Index is out of range");
     }
     
     Node<T>* current = head;
 
-    for(int i = 0; i < index; ++i)
+    for(int i = 0; i < index; ++i) {
         current = current->next;
+    }
     
     return current->data;
 

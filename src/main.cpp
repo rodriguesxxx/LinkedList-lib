@@ -8,5 +8,5 @@ int main() {
     list.add(2);
     list.add(3);
 
-    cout << list.get(1) << endl;
+    cout << list.get(11) << endl;
 }
