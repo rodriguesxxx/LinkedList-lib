@@ -17,7 +17,8 @@ class LinkedList {
     private:
         Node<T>* head;
         int size;
-    
+        Node<T>& getNode(const int& index);
+
     public:
         LinkedList() : head(nullptr), size(0) {}
 
